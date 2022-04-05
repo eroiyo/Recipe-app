@@ -7,6 +7,8 @@ ruby '3.0.2'
 
 gem 'devise'
 gem "rake", "~> 13.0"
+gem 'rspec-rails', '~> 5.0.2'
+gem 'rswag-specs'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 # Use postgresql as the database for Active Record
@@ -37,8 +39,6 @@ group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'database_cleaner'
   gem 'rails-controller-testing'
-  gem 'rspec-rails', '~> 5.0.2'
-  gem 'rswag-specs'
 end
 
 group :development do
